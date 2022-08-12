@@ -8,14 +8,14 @@
 }
 
 .pagination>.active>a {
-  background-color: #f95959;
-  border-color: #f95959;
+  background-color: #59d9f9;
+  border-color: #59d9f9;
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
 .pagination>li>a {
-  border: 1px solid #f95959;
+  border: 1px solid #59d9f9;
   padding: 5px 10px;
   outline: none;
   cursor: pointer;
@@ -28,14 +28,14 @@
 .pagination>.active>span:hover,
 .pagination>.active>a:focus,
 .pagination>.active>span:focus {
-  background-color: #f95959;
-  border-color: #f95959;
+  background-color: #59d9f9;
+  border-color: #59d9f9;
   outline: none;
 }
 
 .pagination>li>a,
 .pagination>li>span {
-  color: #f95959
+  color: #59d9f9
 }
 
 .pagination>li:first-child>a,
