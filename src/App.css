@@ -1,0 +1,65 @@
+
+.Main-heading{
+  text-align: center;
+  box-shadow: 2px 5px 10px #5e8080;
+  margin: 20px;
+  padding: 20px;
+  color:#155263;
+  cursor: pointer;
+}
+.Main-heading:hover{
+  background:  linear-gradient(to top right,rgb(112, 141, 145),rgb(255, 249, 254));
+}
+
+.Heading {
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  /* background: linear-gradient(to top right,rgb(56, 255, 255),rgb(7, 126, 224)); */
+  font-size: 120%;
+  top: 0%;
+}
+.Search_By_Product_Id{
+
+  width: 100%;
+}
+.Search_By_Product_Id input{
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  border-radius: 20px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-size: 15px;
+  font-weight: bold;
+}
+.Search_By_Product_Id input:focus
+{
+  border-color: aqua;
+  outline: none;
+}
+.Search_By_Product_Id .searchbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} 
+.Search_By_Product_Id .searchbox span{
+  margin-right: -30%;
+  position: absolute;
+  cursor: pointer;
+}
+.Search_By_Product_Id .searchbox span:hover{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: 5px;
+  /* width: 20px; */
+  color: aqua;
+  /* border-radius: 10px; */
+}
+.sorting{
+  margin-left: 10%;
+}
+.sorting select{
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 5px  15px rgb(148, 142, 142) ;
+}

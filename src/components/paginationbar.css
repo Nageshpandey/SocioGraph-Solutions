@@ -1,0 +1,46 @@
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  max-width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pagination>.active>a {
+  background-color: #f95959;
+  border-color: #f95959;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.pagination>li>a {
+  border: 1px solid #f95959;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+  background-color: #f95959;
+  border-color: #f95959;
+  outline: none;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #f95959
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+  border-radius: unset
+}
